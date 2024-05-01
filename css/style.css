@@ -1,0 +1,185 @@
+body {
+  background-color: #000e06;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #eee7e7;
+  letter-spacing: 1px;
+}
+
+.loader {
+  color: #fff;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 78px;
+  opacity: 0.8;
+}
+
+.loader:before {
+  content: "{";
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+.loader:after {
+  content: "}";
+  display: inline-block;
+  animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+h5 {
+  color: #eee7e7;
+  letter-spacing: 1px;
+}
+
+.container {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #003817;
+  text-align: center;
+}
+
+.input {
+  font-size: 18px;
+  display: block;
+  border: 1px solid #777;
+  width: 80%;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 0.3rem
+}
+
+::-webkit-input-placeholder {
+  color: #999;
+}
+
+::-moz-placeholder {
+  color: #999;
+}
+
+:-ms-input-placeholder {
+  color: #999;
+}
+
+:-moz-placeholder {
+  color: #999;
+}
+
+:focus::-webkit-input-placeholder {
+  color: #c7c6c6;
+}
+
+:focus::-moz-placeholder {
+  color: #c7c6c6;
+}
+
+:focus:-ms-input-placeholder {
+  color: #c7c6c6;
+}
+
+:focus:-moz-placeholder {
+  color: #c7c6c6;
+}
+
+.footer {
+  margin-top: 10px;
+  opacity: .6;
+}
+
+.faa {
+  padding: 15px;
+  font-size: 20px;
+  color: #c7c6c6;
+}
+
+span {
+  color: #c7c6c6;
+  font-size: 14px;
+}
+
+p {
+  color: #c7c6c6;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #c7c6c6;
+}
+
+a:hover {
+  color: #1EBBA3;
+  text-decoration: underline;
+}
+
+.fa-facebook:hover {
+  color: #4267B2;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-github:hover {
+  color: #BD2C00;
+}
+
+.footer {
+  margin-top: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heart {
+  color: #e42f2f;
+  font-size: 2.5px;
+
+}
+
+.fa-beat {
+  animation: fa-beat 2s ease infinite
+}
+
+@keyframes fa-beat {
+  0% {
+    transform: scale(1)
+  }
+
+  25% {
+    transform: scale(.97)
+  }
+
+  35% {
+    transform: scale(.9)
+  }
+
+  45% {
+    transform: scale(1.1)
+  }
+
+  55% {
+    transform: scale(.9)
+  }
+
+  65% {
+    transform: scale(1.1)
+  }
+
+  75% {
+    transform: scale(1.03)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
